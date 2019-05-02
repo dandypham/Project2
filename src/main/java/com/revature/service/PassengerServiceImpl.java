@@ -17,7 +17,7 @@ public class PassengerServiceImpl implements PassengerService {
 	@Autowired
 	private PassengerRepository passengerRepository;
 	//@Autowaired constructor injection
-	public PassengerServiceImpl() {}
+	public PassengerServiceImpl() {} 
 	
 	@Override
 	public List<Passenger> getAllPassengers() {
